@@ -300,7 +300,7 @@ $scope.validate = function(mId) {
       $scope.user = {fname: '', lname: ''};
       $scope.dialog = {title: 'Search User', buttonLabel:'Find User'};
       $scope.someModel = null;
-      $scope.locations = ['Location 1', 'Location 1', 'Location 2', 'Location 3', 'Location 4', 'Location 5'];
+      $scope.locations = ['7152 Leidos', 'WOC', 'SSA HQ'];
       $scope.myTimes = [];
 
       $scope.record = {

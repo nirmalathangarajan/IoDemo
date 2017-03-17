@@ -1,5 +1,5 @@
 angular.module('app.services', ['ngResource', 'ngStorage']).constant('ApiEndpoint', {
-  url : 'https://lit-basin-60588.herokuapp.com/api/:path'
+  url : '/api/:path'
 })
 
   .factory('Managers', [function () {
@@ -13,7 +13,7 @@ angular.module('app.services', ['ngResource', 'ngStorage']).constant('ApiEndpoin
   }])
   .factory('Locations', [function () {
     var getLocations = function () {
-      return ['Location 1', 'Location 2', 'Location 3', 'Location 4', 'Location 5', 'Location 6'];
+      return ['7152 Leidos', 'WOC', 'SSA HQ'];
     };
 
     return {
